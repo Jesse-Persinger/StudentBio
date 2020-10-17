@@ -1,0 +1,20 @@
+body {
+    color: wheat;
+}
+.row {
+    border: solid;border-color: black;
+    background-color: darkslateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+#lamb {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#middlerow {
+    border: solid;border-width: 2px;border-color: black;
+}
