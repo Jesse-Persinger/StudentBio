@@ -1,9 +1,11 @@
 body {
-    color: wheat;
+    color: white;
 }
 .row {
-    border: solid;border-color: black;
-    background-color: darkslateblue;
+    border: solid;
+    border-color:white;
+    border: thick;
+    background-color: #343a40;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -18,3 +20,24 @@ body {
 #middlerow {
     border: solid;border-width: 2px;border-color: black;
 }
+
+.port {
+    width: 100%; 
+    height: 100%;
+}
+#portfoliohead {
+    font-size: xx-large;
+    font-variant-caps: all-petite-caps;
+}
+.figure-caption {
+    color:grey;
+    font-size: xx-large;
+}
+footer{
+    display: none;
+  }
+  @include media-breakpoint-up(sm) {
+    .footer {
+      display: block;
+    }
+  }
