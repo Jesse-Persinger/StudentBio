@@ -33,11 +33,7 @@ body {
     color:grey;
     font-size: xx-large;
 }
-footer{
-    display: none;
-  }
-  @include media-breakpoint-up(sm) {
-    .footer {
-      display: block;
-    }
-  }
+.sig {
+    height: 50px;
+    width: 50px;
+}
