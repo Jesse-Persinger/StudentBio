@@ -8,7 +8,10 @@ body {
     background-color: #343a40;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 #lamb {
@@ -18,7 +21,7 @@ body {
 }
 
 #middlerow {
-    border: solid;border-width: 2px;border-color: black;
+    border: solid;border-width: 2px;border-color:grey;
 }
 
 .port {
